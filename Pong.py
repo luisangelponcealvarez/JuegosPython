@@ -1,5 +1,4 @@
 import pygame
-import random
 
 # Inicializar Pygame
 pygame.init()
@@ -117,10 +116,10 @@ while running:
         ball_dy = -ball_speed_y
 
     # Comprobar si alguien ha ganado
-    if score1 == 5:
+    if score1 == 20:
         show_winner = True
         winner = "Jugador 1"
-    elif score2 == 5:
+    elif score2 == 20:
         show_winner = True
         winner = "Jugador 2"
 
@@ -142,7 +141,7 @@ while running:
 
     # Actualizar la pantalla
     pygame.display.flip()
-    clock.tick(100)
+    clock.tick(110)
 
 # Salir del juego
 pygame.quit()
