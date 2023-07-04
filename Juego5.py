@@ -80,7 +80,7 @@ fuente = pygame.font.Font(None, 36)
 
 # Tiempo
 tiempo_total = 10
-tiempo_restante = tiempo_total * 1000  # Convertir a milisegundos
+tiempo_restante = tiempo_total * 10000  # Convertir a milisegundos
 reloj = pygame.time.Clock()
 
 # Variable para el bucle principal del juego

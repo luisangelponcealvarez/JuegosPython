@@ -34,7 +34,7 @@ ball_dy = ball_speed_y
 # Variables de puntuación
 score1 = 0
 score2 = 0
-font = pygame.font.Font(None, 20)
+font = pygame.font.Font(None, 10)
 
 # Variables de la ventana de ganador
 winner_text = pygame.font.Font(None, 48)
@@ -116,10 +116,10 @@ while running:
         ball_dy = -ball_speed_y
 
     # Comprobar si alguien ha ganado
-    if score1 == 20:
+    if score1 == 10:
         show_winner = True
         winner = "Jugador 1"
-    elif score2 == 20:
+    elif score2 == 10:
         show_winner = True
         winner = "Jugador 2"
 
